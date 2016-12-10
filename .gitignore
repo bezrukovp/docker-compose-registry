@@ -1,0 +1,24 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+Thumbs.db
+.idea
+
+*--
+*-
+*--.*
+*-.*
+
+**/local/*
+
+/registry/auth/*
+/registry/certs/*
+/registry/data/*
+/registry/logs/*
+
+/**/*.env
+!/**/*.dist.env
+!.env
+
+*.override.yml
+
+!/**/.gitkeep
